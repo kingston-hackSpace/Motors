@@ -2,12 +2,6 @@
 Motors available at hackSpace:
 
 - [DC MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/DCmotors.md)
-
-    - DC Motor 12V
- 
-    - DC Motor 5V
- 
-    - DC Motor 5V, 90 degree shaft
  
 - SERVO MOTORs
 
