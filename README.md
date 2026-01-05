@@ -1,7 +1,7 @@
 # Motors
 Motors available at hackSpace:
 
-- DC MOTORs
+- [DC MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/DCmotors.md)
 
     - DC Motor 12V
  
