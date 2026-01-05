@@ -7,7 +7,7 @@ It will depend on your project. Pros and limitations explained below
 ---
 ## Arduino Motor Shield
 
-Reference image [here]()
+Reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/ArduinoMotorShield.jpg)
 
 ### What it is:
 
@@ -44,7 +44,7 @@ Reference image [here]()
 ----
 ## L298N Motor Driver Module
 
-Reference image [here]()
+Reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/L298N.jpg)
 
 ### What it is:
 
