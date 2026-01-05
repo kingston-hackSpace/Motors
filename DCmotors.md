@@ -49,6 +49,8 @@ Motors draw more current than LEDs or sensors.
 - External power supply for the motor (Arduino pins cannot supply enough current)
 
 
-### WIRING
+### INSTRUCTIONS
 
-CODE and INSTRUCTIONS
+- [DC motor + Arduino Motor Shield](https://www.instructables.com/Arduino-Motor-Shield-Tutorial/)
+
+- [DC motor + LL98N Motor Driver](https://www.youtube.com/watch?v=E2sTbpFsvXI&t=11s)
