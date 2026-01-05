@@ -35,3 +35,20 @@ Motors draw more current than LEDs or sensors.
 
 ----
 ## DC Motor : Programming with Arduino
+
+### **HARDWARE**
+
+- Hardware
+
+- Arduino UNO
+
+- DC motor (5 V or 12 V, depending on your motor)
+
+- Motor driver (e.g., [L298N or Arduino Motor Shield](xxxxxx))
+
+- External power supply for the motor (Arduino pins cannot supply enough current)
+
+
+### WIRING
+
+CODE and INSTRUCTIONS
