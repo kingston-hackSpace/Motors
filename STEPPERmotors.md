@@ -84,4 +84,23 @@ WARNING! Recommended use up to 12V.
 
 Tutorial [here](https://www.youtube.com/watch?v=nLV0fjUWI-g&t=26s)
 
+----
+## Understanding TORQUE and LOADS
+
+Torque is the rotational force a motor produces. It is key to determine whether a motor can move a load and hold it.
+
+The torque capacity of a stepper motor will depend on:
+
+- Load distance from the shaft
+
+- Mechanical setup: Gears, pulleys, and belts can multiply torque. 
+
+- Speed: Stepper motors usually have higher torque at low speeds and torque decreases as speed increases.
+
+Learn more about **torque** [here](https://steppermotor.net/what-is-the-torque-of-a-stepper-motor/)
+
+Understanding **mechanical advantage** [here](https://www.youtube.com/watch?v=JnYVz1TSmBQ)
+
+Read more abour **gears** [here](https://www.instructables.com/Basic-Gear-Mechanisms/)
+
 
