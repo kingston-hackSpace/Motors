@@ -2,6 +2,8 @@
 Motors available at hackSpace:
 
 - [DC MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/DCmotors.md)
+
+  High Speed, continuous movement, one direction. 
  
 - SERVO MOTORs
 
@@ -11,7 +13,7 @@ Motors available at hackSpace:
  
     - Servo Motor 180 degrees (5V)
 
-- STEPPER MOTORs
+- [STEPPER MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/STEPPERmotors.md)
  
 - SOLENOID MOTOR (5V)
 
