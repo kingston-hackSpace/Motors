@@ -12,10 +12,6 @@ Motors available at hackSpace:
     - Servo Motor 180 degrees (5V)
 
 - STEPPER MOTORs
-
-    - Stepper motor 5V
- 
-    - Stepper motor 12V (large and small)
  
 - SOLENOID MOTOR (5V)
 
