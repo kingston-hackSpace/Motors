@@ -8,11 +8,14 @@ Motors available at hackSpace:
  
 - [SERVO MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/SERVOmotors.md)
 
+  - Rotate at specific angles (180 or 360 degrees).
+  - Precise, small and light.
+  - Autocorrects position after re-powering. 
 
 
 - [STEPPER MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/STEPPERmotors.md)
 
-  - Precise motion. Fully programmable: speed, direction, and position.
+  - Precise motion (by steps). Fully programmable: speed, direction, and position.
  
 - SOLENOID MOTOR (5V)
 
