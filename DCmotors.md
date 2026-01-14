@@ -36,7 +36,7 @@ Motors draw more current than LEDs or sensors.
 ----
 ## DC Motor : Programming with Arduino
 
-### **HARDWARE**
+### HARDWARE
 
 - Hardware
 
