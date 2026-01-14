@@ -12,13 +12,13 @@ Need to be controlled by a motor driver.
 
 Requires external power supply (cannot be powered by the Arduino board).
 
-Learn more at [this LinkedIn-Learning Tutorial](https://www.linkedin.com/learning-login/share?account=56743409&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-arduino-interfacing-with-analog-devices%2Fstepper-motor-introduction%3Ftrk%3Dshare_video_url%26shareId%3D7WPA8OSNQNiYFrPG7lh2ng%253D%253D  )
+Learn more at [this LinkedIn Tutorial](https://www.linkedin.com/learning-login/share?account=56743409&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-arduino-interfacing-with-analog-devices%2Fstepper-motor-introduction%3Ftrk%3Dshare_video_url%26shareId%3D7WPA8OSNQNiYFrPG7lh2ng%253D%253D  )
+
 
 ----
 ## Available at hackSpace:
 
 - **Unipolar Stepper Motor 5V**:
-
 
     - See [reference image](https://github.com/kingston-hackSpace/Motors/blob/main/unipolar.jpg)
       
@@ -43,22 +43,34 @@ Motors draw more current than LEDs or sensors.
 # TUTORIALS
 ----
 
-
 ## UNIPOLAR Stepper Motor 
 
-Hardware:
+Hardware
+
+- Unipolar Stepper Motor
+
+- Motor Driver Board (ULN2003)
+
+- Arduino Board
+
+- Power Supply 5V
+
+Tutorial [here]
+
+----
+## BIPOLAR Stepper Motor
+
+Hardware
 
 - Bipolar Stepper Motor
 
-- Motor Driver
+- EasyDriver Motor Driver
 
 - Arduino Board
 
 - Power Supply 12V
 
-Tutorial [here](https://www.norwegiancreations.com/2014/12/arduino-tutorial-stepper-motor-with-easydriver/)
 
-----
-## BIPOLAR Stepper Motor
+Tutorial [here](https://www.norwegiancreations.com/2014/12/arduino-tutorial-stepper-motor-with-easydriver/)
 
 
