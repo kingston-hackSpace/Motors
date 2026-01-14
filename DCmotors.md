@@ -53,4 +53,4 @@ Motors draw more current than LEDs or sensors.
 
 - [DC motor + Arduino Motor Shield](https://www.instructables.com/Arduino-Motor-Shield-Tutorial/)
 
-- [DC motor + LL98N Motor Driver](https://www.youtube.com/watch?v=E2sTbpFsvXI&t=11s)
+- [DC motor + LL98N Motor Driver]([)](https://www.hackster.io/ryanchan/how-to-use-the-l298n-motor-driver-b124c5)
