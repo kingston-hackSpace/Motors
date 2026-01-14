@@ -17,11 +17,13 @@
 
 - **Unipolar Stepper Motor 5V**:
 
-    - See [reference image](https://github.com/kingston-hackSpace/Motors/blob/main/unipolar.jpg)
+    - See reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/unipolar.jpg)
       
     - Small, low-power motor suitable for lightweight mechanisms.
   
 - **Bipolar Stepper motor 12V (large and small)**:
+
+    - See reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/bipolarStepper.jpg) 
     
     - More powerful than a 5V motor, providing higher torque (useful for heavier loads).
 
@@ -78,7 +80,7 @@ Alternatevely to *Easydriver*, Bipolar stepper motors can operate using Microste
 
 These drivers divide each step into smaller steps (microsteps), resulting in smoother, quieter, and more precise motion.
 
-WARNING! Recommended used up to 12V. 
+WARNING! Recommended use up to 12V. 
 
 Tutorial [here](https://www.youtube.com/watch?v=nLV0fjUWI-g&t=26s)
 
