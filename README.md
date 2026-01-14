@@ -6,13 +6,9 @@ Motors available at hackSpace:
   - High Speed, continuous movement, one direction (left or right, depending on wiring).
   - Good for smooth, continuous motion.
  
-- SERVO MOTORs
+- [SERVO MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/SERVOmotors.md)
 
-    - Servo Motor 360 degrees (5V)
- 
-    - Servo Motor dual 270 degrees (5V)
- 
-    - Servo Motor 180 degrees (5V)
+
 
 - [STEPPER MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/STEPPERmotors.md)
 
