@@ -1,5 +1,9 @@
 # Motors
-Motors available at hackSpace:
+
+Read more about types of motors in this [this Adafruit's guide.](https://learn.adafruit.com/adafruit-motor-selection-guide)
+
+----
+Motors available at hackSpace
 
 - [DC MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/DCmotors.md)
 
