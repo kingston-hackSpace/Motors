@@ -52,7 +52,7 @@ Hardware
 
 - Arduino Board
 
-- Power Supply 5V
+- Power Supply 5V 500mA
 
 Tutorial [here](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
 
