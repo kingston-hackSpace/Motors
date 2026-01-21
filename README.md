@@ -1,6 +1,6 @@
 # Motors
 
-Read more about types of motors in this [this Adafruit's guide.](https://learn.adafruit.com/adafruit-motor-selection-guide)
+Read more about types of motors at [Adafruit's Motors Guide.](https://learn.adafruit.com/adafruit-motor-selection-guide)
 
 ----
 Motors available at hackSpace
