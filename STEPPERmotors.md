@@ -12,6 +12,8 @@
 
 - Requires external power supply (cannot be powered by the Arduino board).
 
+Read more: [Adafruit Stepper Motors Guide](https://learn.adafruit.com/all-about-stepper-motors)
+
 ----
 ## Available at hackSpace:
 
