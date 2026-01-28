@@ -1,6 +1,6 @@
 # Motors
 
-Read more about types of motors at [Adafruit's Motors Guide.](https://learn.adafruit.com/adafruit-motor-selection-guide)
+THIS GUIDE IS IN WORK-IN-PROGRESS
 
 ----
 Motors available at hackSpace
@@ -25,4 +25,7 @@ Motors available at hackSpace
 - SOLENOID MOTOR (5V)
 
 - VIBRATION MOTOR (5V)
+
+----
+Read more about types of motors at [Adafruit's Motors Guide.](https://learn.adafruit.com/adafruit-motor-selection-guide)
 
