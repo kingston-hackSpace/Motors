@@ -81,7 +81,9 @@ Tutorial [here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/a
 ----
 ## More tutorials
 
-[Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
+[More tutorials: Add buttons, speed control, joytick and more](https://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html)
+
+[Example: Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
 
 ----
 ## Microstep Driver (TB6600)
