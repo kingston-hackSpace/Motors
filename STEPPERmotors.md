@@ -98,12 +98,12 @@ NOTE:
 
 ### MicroSteps
 
-MicroSteps [Arduino code here](https://github.com/kingston-hackSpace/Motors/blob/main/microSteps_example.ino)
+[MicroSteps Arduino code here](https://github.com/kingston-hackSpace/Motors/blob/main/microSteps_example.ino)
 
 
 ### Speed control
 
-Speed control Tutorial [here]
+[Speed control Arduino code here](https://github.com/kingston-hackSpace/Motors/blob/main/Speed_Example.ino)
 
 
 ----
