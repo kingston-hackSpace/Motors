@@ -73,7 +73,9 @@ Hardware
 - Power Supply 12V
 
 
-Tutorial [here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all#:~:text=The%20Easy%20Driver%20gives%20you%20the%20capability%20to,need%20everything%20though%20depending%20on%20what%20you%20have)
+### Starter Tutorial
+
+Bipolar Stepper Motor : Starter Tutorial [here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all#:~:text=The%20Easy%20Driver%20gives%20you%20the%20capability%20to,need%20everything%20though%20depending%20on%20what%20you%20have)
 
 NOTE:
 
@@ -94,6 +96,14 @@ NOTE:
 - HIGH → Driver OFF (motor disabled)
 
 
+### MicroSteps
+
+MicroSteps [Arduino code here]
+
+
+### Speed control
+
+Speed control Tutorial [here]
 
 
 ----
