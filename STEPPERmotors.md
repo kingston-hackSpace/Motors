@@ -76,7 +76,12 @@ Hardware
 
 Tutorial [here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all#:~:text=The%20Easy%20Driver%20gives%20you%20the%20capability%20to,need%20everything%20though%20depending%20on%20what%20you%20have)
 
-More tutorials at the end of this page.
+
+
+----
+## More tutorials
+
+[Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
 
 ----
 ## Microstep Driver (TB6600)
@@ -110,8 +115,5 @@ Read more abour **gears** [here](https://www.instructables.com/Basic-Gear-Mechan
 
 Read more abour **pulleys** [here](https://www.instructables.com/Basic-Pulley-Mechanisms/)
 
-----
-## More tutorials
 
-[Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
 
