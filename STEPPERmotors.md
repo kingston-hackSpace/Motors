@@ -58,7 +58,6 @@ Hardware
 
 Tutorial [here](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
 
-More tutorials at the end of this page. 
 
 ----
 ## BIPOLAR Stepper Motor
@@ -75,6 +74,25 @@ Hardware
 
 
 Tutorial [here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all#:~:text=The%20Easy%20Driver%20gives%20you%20the%20capability%20to,need%20everything%20though%20depending%20on%20what%20you%20have)
+
+NOTE:
+
+**M1 and M2** pins are used for micro-stepping. Use them if:
+
+- You want smoother motion
+
+- You want quieter movement
+
+- You want higher positioning resolution
+
+- You’re building something like a clock (very useful!)
+
+**EN pin** = Enable active LOW. Use EN if you want to save power, to release the motor (no holding torque), or to avoid heating.
+
+- LOW → Driver ON
+
+- HIGH → Driver OFF (motor disabled)
+
 
 
 
