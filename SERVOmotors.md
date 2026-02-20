@@ -2,6 +2,9 @@
 
 Read more about Servo Motors [here](https://www.sparkfun.com/servos)
 
+----
+## Multiple Servos : Be cautios! 
+
 **POWERING WARNING!**
 
 If you plan to use more than one servo motor, you will need more power than the one provided by your Arduino board. 
@@ -10,16 +13,19 @@ PENDING DESCRIPTION
 **MULTIPLE SERVO MOTORS**
 If you plan to use **more than four** servo motors, PENDING DESRIPTION
 
-
-# Servo Motors available at hackSpace
-
-### Servo Motor 180 degrees (5V) :
+----
+# Servo Motor 180 degrees (5V) :
 
 A 180° servo motor is a standard positional servo that rotates through approximately 180 degrees. When given a PWM signal from a microcontroller, it moves to the requested angle within its 0–180° range and actively holds that position.
 
-**How to use:** [Servo 180 Tutorial](https://docs.arduino.cc/tutorials/generic/basic-servo-control/)
+**How to use:** 
 
-### Servo Motor dual 270 degrees (5V)
+[Begginers: Servo 180 Tutorial](https://docs.arduino.cc/tutorials/generic/basic-servo-control/)
+
+[Servo control with a potentiometer](https://www.allaboutcircuits.com/projects/servo-motor-control-with-an-arduino/)
+
+----
+# Servo Motor dual 270 degrees (5V)
 
 A 270° servo motor is a positional servo that can rotate through approximately 270 degrees instead of the usual 180 degrees.
 
@@ -31,7 +37,8 @@ A 270° servo motor is a positional servo that can rotate through approximately 
 
 - Speed and smoothness are controlled by how quickly you change angles; the servo always tries to reach the commanded position.
 
-### Servo Motor 360 degrees (5V)
+----
+# Servo Motor 360 degrees (5V)
 
 A 360° continuous servo does not control position. 
 
@@ -59,4 +66,8 @@ The servo needs more power than the arduino can provide, therefore, it needs ext
 See Wiring Diagram [here]
 
 CODE and INSTRUCTIONS:
+
+myservo.write(0); // rotate clockwise
+myservo.write(180); // rotate counterclockwise
+myservo.write(60); // stop servo
 
