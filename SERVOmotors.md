@@ -3,15 +3,15 @@
 Read more about Servo Motors [here](https://www.sparkfun.com/servos)
 
 ----
-## Multiple Servos : Be cautios! 
+## Multiple Servos : Be cautious! 
 
 **POWERING WARNING!**
 
 If you plan to use more than one servo motor, you will need more power than the one provided by your Arduino board. 
-PENDING DESCRIPTION
+Read below. 
 
 **MULTIPLE SERVO MOTORS**
-If you plan to use **more than four** servo motors, PENDING DESRIPTION
+If you plan to use **more than four** servo motors, you will need extra equipment and power. More info below. 
 
 ----
 # Servo Motor 180 degrees (5V) :
@@ -24,7 +24,7 @@ A 180° servo motor is a standard positional servo that rotates through approxim
 
 [Servo control with a potentiometer](https://www.allaboutcircuits.com/projects/servo-motor-control-with-an-arduino/)
 
-[Controlling 4 180-servos]
+[Controlling four 180-servos]
 
 [Controlling multipe 180-servos]
 
@@ -54,7 +54,7 @@ The PWM signal determines how fast and in which direction it rotates, but there 
 
 **How to use:** 
 
-HARDWARE:
+**HARDWARE:**
 
 - 360 continuous servo motor
 
@@ -63,29 +63,28 @@ HARDWARE:
 - Power supply 5V, 500mA(min)
 
  
-WIRING:
+**WIRING:**
 
 The servo needs more power than the arduino can provide, therefore, it needs external power, otherwise, you may overheat the Arduino Board and damage it. 
 
 See Wiring Diagram [here](https://github.com/kingston-hackSpace/Motors/blob/main/servo360_wiring.jpg)
 
-CODE and INSTRUCTIONS:
+**CODE and INSTRUCTIONS:**
 
+    - myservo.write(45); // rotate the motor counter-clockwise
 
-myservo.write(45); // rotate the motor counter-clockwise
+    - myservo.write(90); // stop the motor
 
-myservo.write(90); // stop the motor
-
-myservo.write(135); // rotate the motor clockwise
+    - myservo.write(135); // rotate the motor clockwise
 
 
 
 
 Using the myservo.write() line on a continuous rotation servo motor, we can **control the direction and the speed of rotation**. Also, the same line stops its rotation. 
 
-ROTATE COUNTER-CLOCKWIRE: (0-89)
+**ROTATE COUNTER-CLOCKWIRE:** (0-89)
 
-STOP: (90)
+**STOP:** (90)
 
-ROTATE CLOCKWISE (91-180). Any value greater than 90 causes the servo to rotate clockwise, and determines the speed. For instance, myservo.write(95) will make the motor start rotating very slowly while using myservo.write(180) sets the motor at full clockwise speed.
+**ROTATE CLOCKWISE (91-180)**. Any value greater than 90 causes the servo to rotate clockwise, and determines the speed. For instance, myservo.write(95) will make the motor start rotating very slowly while using myservo.write(180) sets the motor at full clockwise speed.
 
