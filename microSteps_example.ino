@@ -25,11 +25,11 @@ void loop() {
   // avoid printing in the Serial Monitor
 
   digitalWrite(dir, LOW); // Set direction clockwise
-  mictroStep(); // Step the motor
+  microStep(); // Step the motor
   //StepForward();
 }
 
-void mictroStep() {
+void microStep() {
     digitalWrite(stp, HIGH);
     delayMicroseconds(500); // change delay to change speed
     digitalWrite(stp, LOW); 
