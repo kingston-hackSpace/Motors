@@ -17,6 +17,10 @@ void setup() {
   pinMode(MS2, OUTPUT);
   pinMode(EN, OUTPUT);
 
+  digitalWrite(EN, LOW);   // Enable driver
+  digitalWrite(MS1, LOW);  // Full step
+  digitalWrite(MS2, LOW);  // Full step
+
   Serial.println("Begin motor control");
   
 }
@@ -43,5 +47,3 @@ void StepForward(){
     digitalWrite(stp,LOW); //Pull step pin low so it can be triggered again
     delay(10);
 }
-
-
