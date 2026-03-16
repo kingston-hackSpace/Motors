@@ -113,6 +113,8 @@ NOTE:
 
 [Example: Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
 
+[Motorized Clock with a Unipolar Stepper Motor](https://github.com/kingston-hackSpace/Project_Motorized-Clock/blob/main/README.md)
+
 ----
 ## Microstep Driver (TB6600)
 
