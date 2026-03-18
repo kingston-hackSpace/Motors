@@ -10,10 +10,12 @@ Motors available at hackSpace
   - High Speed, one direction (left or right, depending on wiring).
   - Continuous movement (doesn't hold position).
   - Good for smooth, continuous motion.
+  - Fast speed only (relative controlled using a PWM driver)
  
 - [SERVO MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/SERVOmotors.md)
 
-  - Rotate at specific angles (180 or 270 degrees), or control direction and speed (continuous Servo 360)
+  - Rotate at specific angles (180 or 270 degrees)
+  - Continuous rotation with direction and speed control( Servo 360)
   - Precise, small and light.
   - Can hold position while powered.
 
