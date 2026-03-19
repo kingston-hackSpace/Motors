@@ -3,15 +3,11 @@
 Read more about Servo Motors [here](https://www.sparkfun.com/servos)
 
 ----
-## Multiple Servos : Be cautious! 
+## MULTIPLE SERVO MOTORS : Be cautious! 
 
 **POWERING WARNING!**
 
-If you plan to use more than one servo motor, you will need more power than the one provided by your Arduino board. 
-Read below. 
-
-**MULTIPLE SERVO MOTORS**
-If you plan to use **more than four** servo motors, you will need extra equipment and power. More info below. 
+If you plan to use more than one servo motor, you will need more power than the one provided by your Arduino board. You will need extra equipment and power. More info below. 
 
 ----
 # Servo Motor 180 degrees (5V) :
