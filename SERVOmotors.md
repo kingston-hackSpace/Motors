@@ -20,9 +20,7 @@ A 180° servo motor is a standard positional servo that rotates through approxim
 
 [Servo control with a potentiometer](https://www.allaboutcircuits.com/projects/servo-motor-control-with-an-arduino/)
 
-[Controlling four 180-servos]
-
-[Controlling multipe 180-servos]
+[Controlling multiple 180-servos]
 
 ----
 # Servo Motor dual 270 degrees (5V)
@@ -73,6 +71,11 @@ See Wiring Diagram [here](https://github.com/kingston-hackSpace/Motors/blob/main
 
     - myservo.write(135); // rotate the motor clockwise
 
+---- 
+
+# Mounting Servo Motors
+
+[Gripper Kit](https://thepihut.com/products/klaw-mk2-robotic-gripper-kit)
 
 
 
