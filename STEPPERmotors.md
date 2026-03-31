@@ -45,7 +45,7 @@ Tutorial : Hardware list
 
 - Power Supply 5V 500mA
 
-Tutorial : Available [here](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
+Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
 
 
 ----
