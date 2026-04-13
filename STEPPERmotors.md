@@ -102,11 +102,24 @@ NOTE:
 ----
 ## More tutorials
 
+ADD BUTTONS:
+
 [More tutorials: Add buttons, speed control, joytick and more](https://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html)
 
-[Example: Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
+MAKE A CLOCK:
 
 [Motorized Clock with a Unipolar Stepper Motor](https://github.com/kingston-hackSpace/Project_Motorized-Clock/blob/main/README.md)
+
+MAKE A ROTATING DISPLAY:
+
+[3D Printed Rotating Display Stand](https://www.youtube.com/watch?v=QSZIvSx3qa8)
+
+[DIY Rotating Display Stand](https://www.youtube.com/watch?v=FnpqFsf06sc)
+
+[Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
+
+[Manual Rotating Photo Display Stand](https://makerworld.com/en/models/1198124-rotating-photo-display-stand-recycled-spool?from=search#profileId-1211060)
+
 
 ----
 ## Microstep Driver (TB6600)
