@@ -99,27 +99,7 @@ NOTE:
 [Speed control Arduino code here](https://github.com/kingston-hackSpace/Motors/blob/main/Speed_Example.ino)
 
 
-----
-## More tutorials
-
-ADD BUTTONS:
-
-[More tutorials: Add buttons, speed control, joytick and more](https://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html)
-
-MAKE A CLOCK:
-
-[Motorized Clock with a Unipolar Stepper Motor](https://github.com/kingston-hackSpace/Project_Motorized-Clock/blob/main/README.md)
-
-MAKE A ROTATING DISPLAY:
-
-[3D Printed Rotating Display Stand](https://www.youtube.com/watch?v=QSZIvSx3qa8)
-
-[DIY Rotating Display Stand](https://www.youtube.com/watch?v=FnpqFsf06sc)
-
-[Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
-
-[Manual Rotating Photo Display Stand](https://makerworld.com/en/models/1198124-rotating-photo-display-stand-recycled-spool?from=search#profileId-1211060)
-
+*Note:* See more tutorials at the end of this document
 
 ----
 ## Microstep Driver (TB6600)
@@ -153,5 +133,26 @@ Read more abour **gears** [here](https://www.instructables.com/Basic-Gear-Mechan
 
 Read more abour **pulleys** [here](https://www.instructables.com/Basic-Pulley-Mechanisms/)
 
+----
+## More tutorials
 
+ADD BUTTONS:
+
+[More tutorials: Add buttons, speed control, joytick and more](https://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html)
+
+MAKE A CLOCK:
+
+[Motorized Clock with a Unipolar Stepper Motor](https://github.com/kingston-hackSpace/Project_Motorized-Clock/blob/main/README.md)
+
+MAKE A ROTATING DISPLAY:
+
+[3D Printed Rotating Display Stand](https://www.youtube.com/watch?v=QSZIvSx3qa8)
+
+[DIY Rotating Display Stand](https://www.youtube.com/watch?v=FnpqFsf06sc)
+
+[Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
+
+[Manual Rotating Photo Display Stand](https://makerworld.com/en/models/1198124-rotating-photo-display-stand-recycled-spool?from=search#profileId-1211060)
+
+[3D printed rotary Display for Unipolar Stepper Motor](https://makerworld.com/en/models/1054018-rotating-display-stand#profileId-1041221)
 
