@@ -134,25 +134,41 @@ Read more abour **gears** [here](https://www.instructables.com/Basic-Gear-Mechan
 Read more abour **pulleys** [here](https://www.instructables.com/Basic-Pulley-Mechanisms/)
 
 ----
+## 3D-Print motor holders (unipolar only)
+
+[28BYJ-48 Stepper Motor Mount](https://www.printables.com/model/201405-28byj-48-stepper-motor-mount/files)
+
+[28BYJ-48 Stepper motor holder and top plate](https://www.thingiverse.com/thing:3018451)
+
+----
 ## More tutorials
 
-ADD BUTTONS:
+**ADD BUTTONS:**
 
 [More tutorials: Add buttons, speed control, joytick and more](https://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html)
 
-MAKE A CLOCK:
+**MAKE A CLOCK:**
 
 [Motorized Clock with a Unipolar Stepper Motor](https://github.com/kingston-hackSpace/Project_Motorized-Clock/blob/main/README.md)
 
-MAKE A ROTATING DISPLAY:
+**MAKE A ROTATING DISPLAY:**
 
-[3D Printed Rotating Display Stand](https://www.youtube.com/watch?v=QSZIvSx3qa8)
-
-[DIY Rotating Display Stand](https://www.youtube.com/watch?v=FnpqFsf06sc)
-
-[Build a Motorized Rotating Display Stand](https://www.youtube.com/watch?v=vgL5tYCRcN4)
+- Rotary display | No motor example:
 
 [Manual Rotating Photo Display Stand](https://makerworld.com/en/models/1198124-rotating-photo-display-stand-recycled-spool?from=search#profileId-1211060)
 
-[3D printed rotary Display for Unipolar Stepper Motor](https://makerworld.com/en/models/1054018-rotating-display-stand#profileId-1041221)
+- Rotary display | Unipolar Stepper:
+
+[3D Printed Rotating Display Stand](https://www.youtube.com/watch?v=QSZIvSx3qa8)
+
+[How To Make Motorized Turntable](https://www.youtube.com/watch?v=scI8uqEy0xY)
+
+- Rotary display | Bipolar Stepper:
+
+[Instructables: Automated Turntable With Steppermotor](https://www.instructables.com/Automated-Turntable-With-Steppermotor/)
+
+[Rotary base and stepper motor NEMA, automatic lazy Susan](https://www.youtube.com/watch?v=jVDTTL6pINc)
+
+[DIY Rotating Display Stand](https://www.youtube.com/watch?v=FnpqFsf06sc)
+
 
