@@ -61,29 +61,23 @@ The PWM signal determines how fast and in which direction it rotates, but there 
 
 The servo needs more power than the arduino can provide, therefore, it needs external power, otherwise, you may overheat the Arduino Board and damage it. 
 
-See Wiring Diagram [here](https://github.com/kingston-hackSpace/Motors/blob/main/servo360_wiring.jpg)
+See wiring diagram [here](https://github.com/kingston-hackSpace/Motors/blob/main/servo360_wiring.jpg)
 
 **CODE and INSTRUCTIONS:**
 
-    - myservo.write(45); // rotate the motor counter-clockwise
+Download and upload [this code] to your Arduino board. 
 
-    - myservo.write(90); // stop the motor
+**Understanding SPEED and DIRECTION:**
 
-    - myservo.write(135); // rotate the motor clockwise
+- ROTATE COUNTER-CLOCKWIRE: (0-89). Any value smaller than 90 causes the servo to rotate counter-clockwise, and determines the speed. For instance, *myservo.write(86)* will make the motor start rotating very slowly while using *myservo.write(10)* sets the motor at full counter-clockwise speed.
+
+- STOP: *myservo.write(90)* stops the motor
+
+- ROTATE CLOCKWISE (91-180). Any value greater than 90 causes the servo to rotate clockwise, and determines the speed. For instance, *myservo.write(95)* will make the motor start rotating very slowly while using *myservo.write(180)* sets the motor at full clockwise speed.
 
 ---- 
-
 # Mounting Servo Motors
 
 [Gripper Kit](https://thepihut.com/products/klaw-mk2-robotic-gripper-kit)
 
-
-
-Using the myservo.write() line on a continuous rotation servo motor, we can **control the direction and the speed of rotation**. Also, the same line stops its rotation. 
-
-**ROTATE COUNTER-CLOCKWIRE:** (0-89)
-
-**STOP:** (90)
-
-**ROTATE CLOCKWISE (91-180)**. Any value greater than 90 causes the servo to rotate clockwise, and determines the speed. For instance, myservo.write(95) will make the motor start rotating very slowly while using myservo.write(180) sets the motor at full clockwise speed.
 
