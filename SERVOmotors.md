@@ -65,7 +65,7 @@ See wiring diagram [here](https://github.com/kingston-hackSpace/Motors/blob/main
 
 **CODE and INSTRUCTIONS:**
 
-Download and upload [this code] to your Arduino board. 
+Download and upload [this code](https://github.com/kingston-hackSpace/Motors/blob/main/servo360.ino) to your Arduino board. 
 
 **Understanding SPEED and DIRECTION:**
 
