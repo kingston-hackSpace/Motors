@@ -45,7 +45,7 @@ Motors draw more current than LEDs or sensors.
 
 - Power Supply 5V 500mA
 
-** Tutorial:**
+**Tutorial: Programming**
 
 *Note: The unipolar stepper motor has a "medium range" max speed. In other words, it cannot run very fast*
 
