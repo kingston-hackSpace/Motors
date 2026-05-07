@@ -15,7 +15,7 @@ Motors available at hackSpace
 - [SERVO MOTORs](https://github.com/kingston-hackSpace/Motors/blob/main/SERVOmotors.md)
 
   - Rotate at specific angles (180 or 270 degrees)
-  - Continuous rotation with direction and speed control( Servo 360)
+  - Continuous rotation with direction and speed control( Servo 360). Can rotate "very very slow"
   - Precise, small and light.
   - Can hold position while powered.
 
