@@ -44,6 +44,8 @@ Instead, it functions like a DC gear motor with built-in speed and direction con
 
 Continuous servos can rotate indefinitely in either direction.
 
+It can rotate "VERY VERY SLOW"
+
 The PWM signal determines how fast and in which direction it rotates, but there is no feedback for absolute position. Continuous servos are useful for wheels, conveyor belts, and other applications requiring rotation, but they are not suitable for applications that need precise angular positioning.
 
 **How to use:** 
