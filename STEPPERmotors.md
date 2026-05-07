@@ -35,7 +35,7 @@ Motors draw more current than LEDs or sensors.
       
     - Small, low-power motor suitable for lightweight mechanisms.
 
-Tutorial : Hardware list
+**Tutorial : Hardware list**
 
 - Unipolar Stepper Motor
 
@@ -44,6 +44,10 @@ Tutorial : Hardware list
 - Arduino Board
 
 - Power Supply 5V 500mA
+
+** Tutorial:**
+
+*Note: The unipolar stepper motor has a "medium range" max speed. In other words, it cannot run very fast*
 
 Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
 
