@@ -8,6 +8,8 @@
 #define MS2 5
 #define EN  6
 
+int motor_delay = 1000;
+
 void setup() {
   Serial.begin(9600);
   delay(1000); //1 second delay to allow easy drivers to power up
@@ -31,13 +33,15 @@ void loop() {
   digitalWrite(dir, LOW); // Set direction clockwise
   microStep(); // Step the motor
   //StepForward();
+
+  if(motor_delay>750){motor_delay--;}//accelerate stepper to avoid freezing
 }
 
 void microStep() {
     digitalWrite(stp, HIGH);
-    delayMicroseconds(500); // change delay to change speed
+    delayMicroseconds(motor_delay); // change delay to change speed
     digitalWrite(stp, LOW); 
-    delayMicroseconds(500);
+    delayMicroseconds(motor_delay);
 }
 
 void StepForward(){
