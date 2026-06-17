@@ -1,87 +1,75 @@
-const int stepPin = 2;
-const int dirPin  = 3;
+/* MicroStepping Tutorial - EasyDriver */
 
-unsigned long stateStartTime = 0;
-int state = 0;
+// You will need to select case (steps or microSteps), and speed
 
-// Pulse timing (microseconds between pulses)
-unsigned long stepInterval;
-unsigned long lastStepTime = 0;
+#define STP 2
+#define DIR 3
+#define MS1 4
+#define MS2 5
+#define EN  6
+
+int stepDelay = 1000; // speed
+int speedValue = 1;   // 1 = slow, 10 = fast
+int mode = 3; // 0 - 3
 
 void setup() {
-  pinMode(stepPin, OUTPUT);
-  pinMode(dirPin, OUTPUT);
+  Serial.begin(9600);
+  delay(1000); //1 second delay to allow easy drivers to power up
 
-  digitalWrite(dirPin, HIGH);   // Fixed direction
+  pinMode(STP, OUTPUT);
+  pinMode(DIR, OUTPUT);
+  pinMode(MS1, OUTPUT);
+  pinMode(MS2, OUTPUT);
+  pinMode(EN, OUTPUT);
 
-  stateStartTime = millis();
+  digitalWrite(EN, LOW);   // enable driver
+  digitalWrite(DIR, LOW);  // set direction
+  
+  Serial.println("Micro Stepping Demo");
 }
 
 void loop() {
+  updateSpeed();
+  setMicrostep(mode);   // select mode, see below
+  stepMotor();       // keep stepping
 
-  unsigned long currentMillis = millis();
+  // accelerate stepper to avoid freezing
+  // if (stepDelay > 750) {
+  //   stepDelay--;
+  // }
 
-  // -------- STATE MACHINE --------
-  switch(state) {
+}
 
-    case 0: // Medium speed (5s)
-      stepInterval = 1000;
-      if (currentMillis - stateStartTime >= 5000) {
-        state = 1;
-        stateStartTime = currentMillis;
-      }
-      break;
+// --------- SPEED CONTROL ---------
+void updateSpeed() {
+  // map speed (1–10) to delay (slow → fast)
+  stepDelay = map(speedValue, 1, 10, 1500, 200);
+}
 
-    case 1: // Hold (2s)
-      stepInterval = 0;
-      if (currentMillis - stateStartTime >= 2000) {
-        state = 2;
-        stateStartTime = currentMillis;
-      }
-      break;
+// --------- SIMPLE STEP FUNCTION ---------
+void stepMotor() {
+  digitalWrite(STP, HIGH);
+  delayMicroseconds(stepDelay);
+  digitalWrite(STP, LOW);
+  delayMicroseconds(stepDelay);
+}
 
-    case 2: // Faster (5s)
-      stepInterval = 80; // 80 max speed the motor can handle
-      if (currentMillis - stateStartTime >= 5000) {
-        state = 3;
-        stateStartTime = currentMillis;
-      }
-      break;
-
-    case 3: // Hold (2s)
-      stepInterval = 0;
-      if (currentMillis - stateStartTime >= 2000) {
-        state = 4;
-        stateStartTime = currentMillis;
-      }
-      break;
-
-    case 4: // Slower (5s)
-      stepInterval = 4000;
-      if (currentMillis - stateStartTime >= 5000) {
-        state = 5;
-        stateStartTime = currentMillis;
-      }
-      break;
-
-    case 5: // Hold (2s)
-      stepInterval = 0;
-      if (currentMillis - stateStartTime >= 2000) {
-        state = 0;
-        stateStartTime = currentMillis;
-      }
-      break;
+// --------- MICROSTEPPING ---------
+void setMicrostep(int mode) {
+  if (mode == 0) {           // Full step
+    digitalWrite(MS1, LOW);
+    digitalWrite(MS2, LOW);
+  } 
+  else if (mode == 1) {      // Half step
+    digitalWrite(MS1, HIGH);
+    digitalWrite(MS2, LOW);
+  } 
+  else if (mode == 2) {      // Quarter step
+    digitalWrite(MS1, LOW);
+    digitalWrite(MS2, HIGH);
+  } 
+  else if (mode == 3) {      // Eighth step
+    digitalWrite(MS1, HIGH);
+    digitalWrite(MS2, HIGH);
   }
-
-  // -------- STEPPING --------
-  if (stepInterval > 0) {
-    if (micros() - lastStepTime >= stepInterval) {
-      lastStepTime = micros();
-
-      digitalWrite(stepPin, HIGH);
-      delayMicroseconds(2);
-      digitalWrite(stepPin, LOW);
-    }
-  }
-
 }
