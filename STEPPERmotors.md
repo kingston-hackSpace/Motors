@@ -92,9 +92,11 @@ Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-s
 
 ### Starter Tutorial : Full Steps VS microSteps
 
-[Starter Tutorial here](https://github.com/kingston-hackSpace/Motors/blob/main/FullSteps-VS-microSteps_example.ino)
+[Starter code here](https://github.com/kingston-hackSpace/Motors/blob/main/FullSteps-VS-microSteps_example.ino)
 
 ### More about MICRO-STEPPING
+
+[Micro-Stepping code here](https://github.com/kingston-hackSpace/Motors/blob/main/microStepping.ino)
 
 ### Speed control
 
