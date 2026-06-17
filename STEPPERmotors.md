@@ -31,9 +31,9 @@ Motors draw more current than LEDs or sensors.
 
 ## UNIPOLAR Stepper Motor 5V
 
-    - See reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/unipolar.jpg)
-      
-    - Small, low-power motor suitable for lightweight mechanisms.
+- See reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/unipolar.jpg)
+
+- Small, low-power motor suitable for lightweight mechanisms.
 
 **Tutorial : Hardware list**
 
@@ -55,11 +55,12 @@ Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-s
 ----
 ## BIPOLAR Stepper Motor
 
-    - See reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/bipolarStepper.jpg) 
+- See reference image [here](https://github.com/kingston-hackSpace/Motors/blob/main/bipolarStepper.jpg) 
     
-    - More powerful than a 5V motor, providing higher torque (useful for heavier loads).
+- More powerful than a 5V motor, providing higher torque (useful for heavier loads).
 
-Tutorial: Hardware list
+
+### Hardware list
 
 - Bipolar Stepper Motor 12V
 
