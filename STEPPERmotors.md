@@ -70,11 +70,6 @@ Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-s
 
 - Power Supply 12V
 
-
-### Starter Tutorial
-
-Bipolar Stepper Motor : Starter Tutorial [here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all#:~:text=The%20Easy%20Driver%20gives%20you%20the%20capability%20to,need%20everything%20though%20depending%20on%20what%20you%20have)
-
 NOTE:
 
 **M1 and M2** pins are used for micro-stepping. Use them if:
@@ -93,6 +88,10 @@ NOTE:
 
 - HIGH → Driver OFF (motor disabled)
 
+### Starter Tutorial : Full Steps VS microSteps
+
+[Starter Tutorial here](https://github.com/kingston-hackSpace/Motors/blob/main/FullSteps-VS-microSteps_example.ino)
+
 
 ### MicroSteps - Example
 
@@ -102,6 +101,10 @@ NOTE:
 ### Speed control - Example
 
 [Speed control Arduino code here](https://github.com/kingston-hackSpace/Motors/blob/main/Speed_Example.ino)
+
+
+Bipolar Stepper Motor : Starter Tutorial [here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all#:~:text=The%20Easy%20Driver%20gives%20you%20the%20capability%20to,need%20everything%20though%20depending%20on%20what%20you%20have)
+
 
 
 *Note:* See more tutorials at the end of this document
