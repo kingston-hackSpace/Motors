@@ -104,6 +104,8 @@ Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-s
 
 ### Acceleration
 
+- PENDING
+
 ### Sparkfun Full Guide
 
 [SparkFun HookUp guide here](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all#:~:text=The%20Easy%20Driver%20gives%20you%20the%20capability%20to,need%20everything%20though%20depending%20on%20what%20you%20have)
