@@ -31,7 +31,7 @@ void setup() {
   // you might want to disable the driver later to reduce power consumption and heat
   
   //SET DIRECTION
-  digitalWrite(dir, LOW); // fixed direction
+  digitalWrite(dir, LOW); // fixed direction clockwise, HIGH to set counter clockwise
 
   Serial.println("Begin motor control");
   delay(1000);
