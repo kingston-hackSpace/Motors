@@ -88,7 +88,7 @@ Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-s
 
 - HIGH → Driver OFF (motor disabled)
 
-- Please note, the NEMA stepper motors can be used as both unipolar or bipolar stepper motors. By adding connections to the tap pins, you can convert them to unipolar mode.
+Please note, the NEMA stepper motors can be used as both unipolar or bipolar stepper motors. By adding connections to the tap pins, you can convert them to unipolar mode.
 
 ## STARTER TUTORIALS
 
