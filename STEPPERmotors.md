@@ -62,7 +62,7 @@ Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-s
 
 ### Hardware list
 
-- Bipolar Stepper Motor 12V
+- NEMA hybrid Stepper Motor 12V
 
 - EasyDriver Motor Driver
 
@@ -87,6 +87,8 @@ Unipolar Stepper Motor Tutorial [here](https://lastminuteengineers.com/28byj48-s
 - LOW → Driver ON
 
 - HIGH → Driver OFF (motor disabled)
+
+- Please note, the NEMA stepper motors can be used as both unipolar or bipolar stepper motors. By adding connections to the tap pins, you can convert them to unipolar mode.
 
 ## STARTER TUTORIALS
 
