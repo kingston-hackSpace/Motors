@@ -26,7 +26,7 @@ Motors available at hackSpace
  
 - SOLENOID MOTOR (5V)
 
-- VIBRATION MOTOR (5V)
+- [VIBRATION MOTOR](https://github.com/kingston-hackSpace/Motors/blob/main/vibrationMotor.md) (5V)
 
 ----
 Read more about types of motors at [Adafruit's Motors Guide.](https://learn.adafruit.com/adafruit-motor-selection-guide)
