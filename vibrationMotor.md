@@ -43,7 +43,7 @@ delay(1000);
 }
 
 ```
-Copy and paste the code above or download the sketch [here]("https://github.com/kingston-hackSpace/Motors/blob/main/vibration_motor.ino").
+Copy and paste the code above or download the sketch [here](https://github.com/kingston-hackSpace/Motors/blob/main/vibration_motor.ino).
 
 The sketch is a variation of the blink sketch. By changing the digital pin to HIGH, the MOSFET completes the circuit with power supply and the vibration motor, providing power and making it spin. You can make variations in the loop pattern to vary how the motor is on or off.
 
