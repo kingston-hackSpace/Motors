@@ -38,7 +38,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 digitalWrite(12,HIGH);
 delay(1000);
-deigitalWrite(12,LOW);
+digitalWrite(12,LOW);
 delay(1000);
 }
 
