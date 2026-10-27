@@ -178,6 +178,8 @@ Read more abour **pulleys** [here](https://www.instructables.com/Basic-Pulley-Me
 
 - Rotary display | Bipolar Stepper:
 
+[Adafruit Stepper Motor Turntable](https://learn.adafruit.com/stepper-motor-turntable)
+
 [Instructables: Automated Turntable With Steppermotor](https://www.instructables.com/Automated-Turntable-With-Steppermotor/)
 
 [Rotary base and stepper motor NEMA, automatic lazy Susan](https://www.youtube.com/watch?v=jVDTTL6pINc)
